@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+.row_poster{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    
+    
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_postlarge{
+    max-height: 250px;
+    width: 300px;
+    height: 300px;
+}
+.row_postlarge:hover{
+    transform: scale(1.08);
+    
+}
+.row{
+    color:white;
+    margin-left: 20px;
+}
+.banner{
+    background: url(oh4.jfif);
+    background-size: cover;
+    background-position: center;
+    color:rgb(26, 22, 22);
+    object-fit: contain;
+    height: 700px;
+}
+.banner_content{
+    margin-left: 30px;
+    padding-top:140px;
+    height:190px;
+}
+.banner_title{
+    font-size: 50px;
+    padding-bottom: 7px;
+    padding-top: 300px;
+    font-weight: bold;
+}
+.banner_para{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    max-width: 360px;
+    height:180px;
+}
+.banner_button{
+    color:white;
+    cursor: pointer ;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(51,51,51,0.5);
+}
+.banner_button:hover{
+    color:black;
+    background-color: white;
+}
+.banner_fade{
+    margin-top: 4rem;
+    width: 5rem;
+    background: linear-gradient(180deg,transparent,rgb(37,37,37,0.61));
+}
+.head_logo{
+    width: 80px;
+    object-fit: contain;
+}
+.head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding:  20px;
+    z-index: 1;
+}
+.row_poster1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: transform 450ms;
+}
+.row_poster1:hover{
+    transform: scale(1.08);
+}
+.row_poster2{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: transform 450ms;
+}
+.row_poster2:hover{
+    transform: scale(1.08);
+}
+.row_poster3{
+    display: flex;
+    width: 260px;
+    height: 270px;
+    padding: 10px;
+    transition: transform 450ms;
+}
+.row_poster3:hover{
+    transform: scale(1.08);
+}
+.co{
+    color: white;
+    display: block;
+    padding: 10px;
+    
+
+}
+.we{
+    color: white;
+    display: block;
+    
+
+}
+.he{
+    color: white;
+    display: block;
+    
+
+}
+.cn{
+    color: white;
+    display: block;
+    margin-right: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.tw{
+    padding: 20px;
+}
